@@ -1,5 +1,5 @@
 //
-//  JRHViewController.h
+//  JRHUITableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Jennifer Hoover on 8/1/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JRHViewController : UIViewController
+@interface JRHUITableViewController : UITableViewController
 
 @end

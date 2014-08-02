@@ -14,13 +14,13 @@
 		2EAD336C198C65080068FB76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD336B198C65080068FB76 /* main.m */; };
 		2EAD3370198C65080068FB76 /* JRHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD336F198C65080068FB76 /* JRHAppDelegate.m */; };
 		2EAD3373198C65080068FB76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAD3371198C65080068FB76 /* Main.storyboard */; };
-		2EAD3376198C65080068FB76 /* JRHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD3375198C65080068FB76 /* JRHViewController.m */; };
 		2EAD3378198C65080068FB76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EAD3377198C65080068FB76 /* Images.xcassets */; };
 		2EAD337F198C65080068FB76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAD337E198C65080068FB76 /* XCTest.framework */; };
 		2EAD3380198C65080068FB76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAD335F198C65080068FB76 /* Foundation.framework */; };
 		2EAD3381198C65080068FB76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAD3363198C65080068FB76 /* UIKit.framework */; };
 		2EAD3389198C65080068FB76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EAD3387198C65080068FB76 /* InfoPlist.strings */; };
 		2EAD338B198C65080068FB76 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD338A198C65080068FB76 /* UITableViewController_Challenge_SolutionTests.m */; };
+		2EAD3396198C666F0068FB76 /* JRHUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD3395198C666F0068FB76 /* JRHUITableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		2EAD336E198C65080068FB76 /* JRHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRHAppDelegate.h; sourceTree = "<group>"; };
 		2EAD336F198C65080068FB76 /* JRHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRHAppDelegate.m; sourceTree = "<group>"; };
 		2EAD3372198C65080068FB76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2EAD3374198C65080068FB76 /* JRHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRHViewController.h; sourceTree = "<group>"; };
-		2EAD3375198C65080068FB76 /* JRHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRHViewController.m; sourceTree = "<group>"; };
 		2EAD3377198C65080068FB76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2EAD337D198C65080068FB76 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAD337E198C65080068FB76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2EAD3386198C65080068FB76 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		2EAD3388198C65080068FB76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2EAD338A198C65080068FB76 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		2EAD3394198C666F0068FB76 /* JRHUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JRHUITableViewController.h; path = ../JRHUITableViewController.h; sourceTree = "<group>"; };
+		2EAD3395198C666F0068FB76 /* JRHUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JRHUITableViewController.m; path = ../JRHUITableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				2EAD336E198C65080068FB76 /* JRHAppDelegate.h */,
 				2EAD336F198C65080068FB76 /* JRHAppDelegate.m */,
 				2EAD3371198C65080068FB76 /* Main.storyboard */,
-				2EAD3374198C65080068FB76 /* JRHViewController.h */,
-				2EAD3375198C65080068FB76 /* JRHViewController.m */,
+				2EAD3394198C666F0068FB76 /* JRHUITableViewController.h */,
+				2EAD3395198C666F0068FB76 /* JRHUITableViewController.m */,
 				2EAD3377198C65080068FB76 /* Images.xcassets */,
 				2EAD3366198C65080068FB76 /* Supporting Files */,
 			);
@@ -252,7 +252,7 @@
 			files = (
 				2EAD336C198C65080068FB76 /* main.m in Sources */,
 				2EAD3370198C65080068FB76 /* JRHAppDelegate.m in Sources */,
-				2EAD3376198C65080068FB76 /* JRHViewController.m in Sources */,
+				2EAD3396198C666F0068FB76 /* JRHUITableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
